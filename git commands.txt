@@ -1,0 +1,55 @@
+Stage a file
+--------
+git add index.html
+
+(or)
+
+git add --all
+
+
+Check the status after staging
+------------------------------------
+git status
+
+
+Commit Changes
+----------------------------------
+git commit -m "commiting the files"
+
+
+Check logs
+-------------------------
+git log
+
+before commiting reset the staged file
+--------------------------------------
+git reset HEAD about.html
+git checkout about.html
+
+
+create a branch from current
+-----------------------------------------------
+1.First check for the current branch by (* specifies  the current branch)
+
+git branch
+
+2. the create a
+
+git branch branch1
+
+3. Switch to the branch
+
+git checkout branch1
+
+4. then check again current branch if switched or not
+
+git branch
+
+
+Merge from custom branch to master branch
+-----------------------------------------------------------------------
+suppose you are currently in Master branch do
+
+git merge branch1
+
+
